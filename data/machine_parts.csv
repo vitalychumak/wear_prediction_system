@@ -1,0 +1,5 @@
+id,name,typical_material_id,typical_wear_mechanism_id
+piston_ring,Поршневе кільце,cast_iron_1,abrasive
+gear_wheel,Шестерня КП,steel_1045,fatigue
+bearing,Підшипник,steel_1045,fatigue
+cylinder_liner,Гільза циліндра,cast_iron_1,abrasive

@@ -1,0 +1,4 @@
+id,name,hardness_hv,roughness_avg,young_modulus,density
+cast_iron_1,Чавун сірий,250,1.2,110,7200
+steel_1045,Сталь 1045,450,0.8,200,7850
+bronze_1,Бронза оловяна,120,1.5,110,8800

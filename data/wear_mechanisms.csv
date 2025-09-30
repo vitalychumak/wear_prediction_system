@@ -1,0 +1,5 @@
+id,name,description,physical_model
+abrasive,Абразивний знос,Знос, викликаний дією твердих часток.,archard
+fatigue,Втомний знос,Знос через циклічне навантаження.,fatigue
+corrosive,Корозійний знос,Знос через хімічні реакції.,corrosion
+adhesive,Адгезійний знос,Знос через злипання поверхонь.,adhesive
