@@ -14,10 +14,12 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Імпорт наших модулів
 from core.knowledge_base import kb_instance
-from core.data_generator import data_generator
+from data.data_generator import data_generator
 from core.models.hybrid_mlp_lstm import hybrid_model
 from utils.data_processor import DataProcessor
-
+kb_instance = KnowledgeBase()
+data_generator = SyntheticDataGenerator(knowledge_base=kb_instance)
+hybrid_model = HybridMLPLSTMModel()
 # Налаштування сторінки
 st.set_page_config(
     page_title="Система прогнозування зносу деталей",

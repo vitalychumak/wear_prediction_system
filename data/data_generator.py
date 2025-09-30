@@ -4,7 +4,7 @@ import pandas as pd
 from typing import Dict, List, Optional, Tuple
 from scipy import stats
 
-from .knowledge_base import kb_instance, Material, WearMechanism, MachinePart
+from core.knowledge_base import kb_instance
 
 class SyntheticDataGenerator:
     """
@@ -196,7 +196,7 @@ class SyntheticDataGenerator:
         return full_dataset
 
 # Глобальний екземпляр генератора
-data_generator = SyntheticDataGenerator()
+#data_generator = SyntheticDataGenerator()
 
 if __name__ == "__main__":
     # Тестування генератора даних
